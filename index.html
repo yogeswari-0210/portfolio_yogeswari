@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yogeswari Ragu | Portfolio</title>
     <link rel="stylesheet" href="intex.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 </head>
 
 <body>
@@ -16,6 +18,7 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#extras">Achievements & Hobbies</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -29,67 +32,211 @@
                 <div class="about-text">
                     <h1>I'm <span>Yogeswari Ragu</span></h1>
                     <p>
-                       an aspiring Full Stack Developer with a passion for building clean, modern web applications using HTML, CSS, JavaScript, and FastAPI.
-Recently, I completed my 12th grade and have joined STS Software Academy to further enhance my skills and gain hands-on experience in software development.
+                        An aspiring Full Stack Developer with a passion for building clean, modern web applications
+                        using HTML, CSS, JavaScript, and FastAPI.
+                        Recently, I completed my 12th grade and have joined STS Software Academy to further enhance my
+                        skills and gain hands-on experience in software development.
                     </p>
                 </div>
             </div>
-        </section>
+            <section id="skills" class="section">
+                <h2 class="section-title">Skills</h2>
 
-        <section id="skills" class="section">
-            <h2 class="section-title">Skills</h2>
-            <div class="skills-grid">
-                <div class="skill">HTML</div>
-                <div class="skill">CSS</div>
-                <div class="skill">JavaScript</div>
-                <div class="skill">SQL</div>
-                <div class="skill">Python</div>
-                <div class="skill">FastAPI</div>
-                <div class="skill">Git</div>
-                
-            </div>
-        </section>
+                <div class="skills-container">
 
-        <!-- PROJECTS SECTION -->
-        <section id="projects" class="section">
-            <h2 class="section-title">My Projects</h2>
-            <div class="projects-container">
+                    <div class="skill-card">
+                        <i class="fa-brands fa-html5 skill-icon html-icon"></i>
+                        <h3>HTML</h3>
+                        <span class="percent">90%</span>
+                        <div class="progress">
+                            <div class="progress-bar html"></div>
+                        </div>
+                    </div>
 
-                <div class="project-card" id="project-ecommerce">
-                    <img src="./assets/shopey.png" alt=" Static E-Commerce Website " class="project-img">
-                    <h3>  shopey Static E-Commerce Website</h3>
-                    <p>Frontend UI for shopping website using HTML & CSS.</p>
-                    <a href="https://yogeswari-0210.github.io/shopey_fisrtstactic_website/pages/womens.html" target="_blank"
-                        class="project-link">View on GitHub</a>
+                    <div class="skill-card">
+                        <i class="fa-brands fa-css3-alt skill-icon css-icon"></i>
+                        <h3>CSS</h3>
+                        <span class="percent">85%</span>
+                        <div class="progress">
+                            <div class="progress-bar css"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-brands fa-js skill-icon js-icon"></i>
+                        <h3>JavaScript</h3>
+                        <span class="percent">20%</span>
+                        <div class="progress">
+                            <div class="progress-bar js"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-brands fa-python skill-icon python-icon"></i>
+                        <h3>Python</h3>
+                        <span class="percent">60%</span>
+                        <div class="progress">
+                            <div class="progress-bar python"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-solid fa-bolt skill-icon fastapi-icon"></i>
+                        <h3>FastAPI</h3>
+                        <span class="percent">70%</span>
+                        <div class="progress">
+                            <div class="progress-bar fastapi"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-brands fa-git-alt skill-icon git-icon"></i>
+                        <h3>Git</h3>
+                        <span class="percent">75%</span>
+                        <div class="progress">
+                            <div class="progress-bar git"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-solid fa-comments skill-icon communication-icon"></i>
+                        <h3>Communication</h3>
+                        <span class="percent">70%</span>
+                        <div class="progress">
+                            <div class="progress-bar communication"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-solid fa-database skill-icon sql-icon"></i>
+                        <h3>SQL</h3>
+                        <span class="percent">65%</span>
+                        <div class="progress">
+                            <div class="progress-bar sql"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-brands fa-figma skill-icon figma-icon"></i>
+                        <h3>Figma</h3>
+                        <span class="percent">70%</span>
+                        <div class="progress">
+                            <div class="progress-bar figma"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-solid fa-chalkboard-user skill-icon presentation-icon"></i>
+                        <h3>Presentation Skills</h3>
+                        <span class="percent">60%</span>
+                        <div class="progress">
+                            <div class="progress-bar presentation"></div>
+                        </div>
+                    </div>
+
+
+
+
                 </div>
+            </section>
 
-                <div class="project-card" id="project-clinic">
-                    <img src="./assets/petcare.png" alt="Clinic Management" class="project-img">
-                    <h3>Petcare E-commerce website</h3>
-                    <p>fullstack E-commerce project using Html, css, JavaScript,FastAPI.</p>
-                    <a href="https://yogeswari-0210.github.io/final_project/" target="_blank" class="project-link">View
-                        on GitHub</a>
+
+
+
+
+
+
+
+            <section id="projects" class="section">
+                <h2 class="section-title">My Projects</h2>
+                <div class="projects-container">
+
+                    <div class="project-card" id="project-ecommerce">
+                        <img src="./assets/shopey.png" alt=" Static E-Commerce Website " class="project-img">
+                        <h3> Shopey </h3>
+                        <p>Static E-Commerce Website using HTML & CSS</p>
+
+                        <a href="https://yogeswari-0210.github.io/shopey_fisrtstactic_website/pages/womens.html"
+                            target="_blank" class="project-link">View on GitHub</a>
+                    </div>
+
+                    <div class="project-card" id="project-clinic">
+                        <img src="./assets/petcare.png" alt="Clinic Management" class="project-img">
+                        <h3>Petcare </h3>
+                        <p>Fullstack E-commerce Website using HTML, CSS, JavaScript & FastAPI.</p>
+                        <a href="https://yogeswari-0210.github.io/final_project/" target="_blank"
+                            class="project-link">View
+                            on GitHub</a>
+                    </div>
+                    <div class="project-card" id="project-els">
+                        <img src="./assets/poster.jpeg" alt="Product building " class="project-img">
+                        <h3>Product-building challenge </h3>
+                        <p>Participated in a product-building challenge as part of a life skills task, collaborating
+                            within a team to design and develop a practical solution.</p>
+
+                    </div>
+
+
                 </div>
+            </section>
 
-                
-            </div>
-        </section>
+            
+            <section id="extras" class="section">
+                <h2 class="section-title">Achievements & Hobbies</h2>
+
+                <div class="extras-container">
+
+                   
+                    <div class="extra-card">
+                        <!-- <img src="" alt="Kabaddi Winner" class="extra-img"> -->
+                        <i class="fa-solid fa-medal extra-icon"></i>
+                        <h3>Zonal Level Kabaddi Winner</h3>
+                        <p>Won second place in Kabaddi at the zonal level</p>
+                    </div>
+
+                    
+                    <div class="extra-card">
+                        <!-- <img src="./assets/workplace.png" alt="Workplace Study" class="extra-img"> -->
+                        <i class="fa-solid fa-award extra-icon"></i>
+                        <h3>Special Mention</h3>
+                        <p>Received special mention for an workplace study presentation. </p>
+                    </div>
+
+                   
+                    <div class="extra-card">
+                        <!-- <img src="./assets/english.png" alt="English Certificate" class="extra-img"> -->
+                        <i class="fa-solid fa-certificate extra-icon"></i>
+                        <h3>B1 Level English Certification</h3>
+                        <p>Received B1 level certification in English proficiency through the EFSET test, enhancing
+                            professional communication skills.</p>
+                    </div>
+
+                  
+                    <div class="extra-card">
+                        <!-- <img src="https://pnccs.edu.in/wp-content/uploads/2025/08/ChatGPTImageAug28202505_42_15P.jpeg" 
+                            alt="Crafts Hobby" class="extra-img"> -->
+                        <i class="fa-solid fa-palette extra-icon"></i>
+                        <h3>Crafts</h3>
+                        <p>Enjoy crafting home decor items using woolen thread.</p>
+                    </div>
+
+                </div>
+            </section>
+
+
 
 
     </main>
-<!-- FOOTER -->
-<footer class="footer">
-    <div class="footer-container">
-        <h3>Contact Me</h3>
-        <div class="footer-contact">
-            <p>📧 Email: <a href="yogeswari.ragu@gmail.com">yogeswari.ragu@gmail.com</a></p>
-            <p>📞 Phone: +91 9176877013</p>
-           
-        </div>
-        
-    </div>
-</footer>
 
-</body>
+    <body>
+      
+        <section id="contact" class="contact-section">
+            <h1>Get in Touch</h1>
+            <p>📧 Email: <a href="mailto:yogeswari.ragu@gmail.com">yogeswari.ragu@gmail.com</a></p>
+            <p>📞 Phone: +91 9176877013</p>
+            <p>💻 GitHub: <a href="https://github.com/yogeswari-0210" target="_blank">github.com/yogeswari-0210</a></p>
+            <p>🔗 LinkedIn: <a href="https://www.linkedin.com/in/yogeswari-ragu-7b2135376"
+                    target="_blank">linkedin.com/in/yogeswari-ragu</a></p>
+        </section>
+
+    </body>
 
 </html>
