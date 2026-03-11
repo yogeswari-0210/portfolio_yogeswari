@@ -200,14 +200,14 @@ body {
     height: 100%;
 }
 
-.html { width: 90%; background: #f16529; }
-.css { width: 85%; background: #2965f1; }
+.html { width: 55%; background: #f16529; }
+.css { width: 50%; background: #2965f1; }
 .js { width: 20%; background: #f7df1e; }
-.python { width: 60%; background: #3776ab; }
-.fastapi { width: 70%; background: #009688; }
+.python { width: 50%; background: #3776ab; }
+.fastapi { width: 55%; background: #009688; }
 .git { width: 75%; background: #f34f29; }
-.sql { width: 65%; background: #f29111; }
-.figma { width: 70%; background: #f24e1e; }
+.sql { width: 60%; background: #f29111; }
+/* .figma { width: 70%; background: #f24e1e; } */
 
 .communication { 
     width: 70%; 
